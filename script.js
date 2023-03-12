@@ -1,0 +1,34 @@
+var turnOn = document.getElementById("turnOn")
+setTimeout(()=>{
+    turnOn.innerHTML=10
+    setTimeout(()=>{
+        turnOn.innerHTML=9
+        setTimeout(()=>{
+            turnOn.innerHTML=8
+            setTimeout(()=>{
+                turnOn.innerHTML=7
+                setTimeout(()=>{
+                    turnOn.innerHTML=6
+                    setTimeout(()=>{
+                        turnOn.innerHTML=5
+                        setTimeout(()=>{
+                            turnOn.innerHTML=4
+                            setTimeout(()=>{
+                                turnOn.innerHTML=3
+                                setTimeout(()=>{
+                                    turnOn.innerHTML=2
+                                    setTimeout(()=>{
+                                        turnOn.innerHTML=1
+                                        setTimeout(()=>{
+                                            turnOn.innerHTML="HAPPY INDIPENDENCE DAY"
+                                        },1000)
+                                    },1000) 
+                                },1000)
+                            },1000)
+                        },1000)
+                    },1000)
+                },1000)
+            },1000)
+        },1000)
+    },1000)
+},1000)
